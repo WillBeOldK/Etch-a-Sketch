@@ -1,13 +1,18 @@
+html{
+    box-sizing: border-box;
+}
 .grid-container{
+    padding:0px;
     width :960px;
     height : 600px;
     display:flex;
-
-    
+    flex-wrap: wrap;
+    margin:0px;
     background-color: lightgray;
 
 }
 body{
+    margin:0;
    
     display:flex;
  
